@@ -68,7 +68,7 @@ df['state'] = df['state'].replace(state_abbrev)
 # Adding Streamlit header
 st.title('Final Project - NCAA Football Stadiums')
 
-image = Image.open('/Users/Londo/Desktop/CS230/CS230 Final Project/SpartanStadium.jpg')
+image = Image.open('https://github.com/ZachLondo/Streamlit/blob/main/SpartanStadium.jpg')
 
 st.image(image, caption='Spartan Stadium')
 
