@@ -6,7 +6,7 @@ from PIL import Image
 
 
 # Read in data (https://stackoverflow.com/questions/55240330/how-to-read-csv-file-from-github-using-pandas)
-path = '/Users/Londo/Desktop/CS230/CS230 Final Project/stadiums-geocoded.txt'
+path = 'https://github.com/ZachLondo/Streamlit/blob/main/stadiums-geocoded.txt'
 df = pd.read_csv(path)
 
 # Changing all state abbreviations to their full name (https://stackoverflow.com/questions/70127242/changing-abbreviated-state-names-with-full-name)
